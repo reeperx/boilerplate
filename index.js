@@ -125,7 +125,7 @@ async function main() {
     try {
       // Use degit to clone from your GitHub repository
       // Replace 'yourusername/your-repo' with your actual GitHub repository
-      const emitter = degit('yourusername/your-repo/boilerplate-files', {
+      const emitter = degit('reeperx/boilerplate/boilerplate-files', {
         force: true,
         verbose: true,
       });
